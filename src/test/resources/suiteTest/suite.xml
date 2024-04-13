@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" verbose="5" thread-count="2" parallel="tests">
+    <test name="RegisterTest">
+        <classes>
+            <class name="com.project.pom.RegisterTest"></class>
+        </classes>
+    </test>
+    <test name="SignInTest">
+        <classes>
+            <class name="com.project.pom.SignInTest"></class>
+        </classes>
+    </test>
+
+</suite>
