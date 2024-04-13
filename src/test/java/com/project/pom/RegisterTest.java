@@ -14,7 +14,7 @@ public class RegisterTest {
     public void setUp() throws Exception{
         registerPage = new RegisterPage(driver);
         driver = registerPage.chromeDriverConnection();
-        registerPage.visit("https://demo.guru99.com/test/newtours/register.php");
+        registerPage.visit("https://demo.guru99.com/test/newtours/index.php");
     }
 
     @Test

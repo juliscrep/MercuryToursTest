@@ -15,7 +15,7 @@ public class SignInTest {
     public void setUp() throws Exception{
         signInPage = new SignInPage(driver);
         driver = signInPage.chromeDriverConnection();
-        signInPage.visit("https://demo.guru99.com/test/newtours");
+        signInPage.visit("https://demo.guru99.com/test/newtours/index.php");
     }
 
     @Test
